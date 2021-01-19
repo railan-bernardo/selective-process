@@ -34,8 +34,8 @@ class Email {
 
         $this->mail->Host = 'smtp.gmail.com';
         $this->mail->Port = 587;
-        $this->mail->Username = 'railanbernardoyt@gmail.com';
-        $this->mail->Password = 'ne@yo385x';
+        $this->mail->Username = '';
+        $this->mail->Password = '';
 
     }
 
@@ -54,7 +54,7 @@ class Email {
         return $this;
     }
 
-    public function send(string $from_name = "E-Lastic Brasil", string $from_email = "railanbernardoyt@gmail.com"): bool
+    public function send(string $from_name = "", string $from_email = ""): bool
 
     {
         try {
