@@ -1,0 +1,24 @@
+{
+  "name": "railan-bernardo/selective-process",
+  "description": "Projeto receber status rastreadores dos correios",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Railan Bernardo",
+      "email": "railabernardo2016@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Source\\": "vendor\\source"
+    }
+  },
+  "require": {
+    "slim/slim":"4.*",
+     "slim/psr7": "^1.2",
+    "rain/raintpl": "3.1.1",
+    "phpmailer/phpmailer": "v5.2.28"
+  }
+}
