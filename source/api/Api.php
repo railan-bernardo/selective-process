@@ -116,10 +116,10 @@ class Api
                     $email = new Email();
 
                     $email->add(
-                        "Exercicio Rasteio de Objeto em PHP",
+                        "",
                         $html,
-                        'Railan Bernardo',//João Macedo
-                        "railabernardo2016@gmail.com"//joao.macedo@elastic.fit
+                        '',
+                        ""
                     )->send();
 
 
